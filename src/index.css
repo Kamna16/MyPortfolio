@@ -8,3 +8,20 @@
     font-family: "Mukta", sans-serif;
 }
 
+@layer utilities {
+    .-z-5 {
+      z-index: -5;
+    }
+  }
+  
+  .blob-style {
+    @apply absolute top-1/2 left-1/2 -z-5 transform -translate-x-1/2 -translate-y-1/2;
+    animation: blobAnimate 3s linear infinite;
+  }
+  
+  @keyframes blobAnimate {
+    50% {
+      top: 54%;
+      left: 46%;
+    }
+  }

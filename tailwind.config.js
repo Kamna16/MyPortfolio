@@ -27,7 +27,31 @@ export default {
           800: "#000000",
           900: "#000000",
         },
-        
+        purple: {
+          5: "#EDE2F7",
+          25: "#D1A8E5",
+          50: "#B66ED2",
+          100: "#9A34BF",
+          200: "#7E1AA5",
+          300: "#641487",
+          400: "#4B0E69",
+          500: "#32094B",
+          600: "#19052E",
+          700: "#000000",
+          800: "#000000",
+          900: "#000000",
+        },
+      },
+      keyframes: {
+        blobAnimate: {
+          '50%': {
+            top: '54%',
+            left: '46%',
+          },
+        },
+      },
+      animation: {
+        blobAnimate: 'blobAnimate 3s linear infinite',
       },
       fontSize: {
         small: '1.25rem', // xl
