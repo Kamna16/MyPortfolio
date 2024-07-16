@@ -42,17 +42,6 @@ export default {
           900: "#000000",
         },
       },
-      keyframes: {
-        blobAnimate: {
-          '50%': {
-            top: '54%',
-            left: '46%',
-          },
-        },
-      },
-      animation: {
-        blobAnimate: 'blobAnimate 3s linear infinite',
-      },
       fontSize: {
         small: '1.25rem', // xl
         medium: '1.5rem', // 2xl
