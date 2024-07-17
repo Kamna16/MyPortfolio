@@ -40,4 +40,5 @@ export const PROJECTS = [
 export const CONTACT = {
   phoneNo: "+91-9359861352",
   email: "kamnabhadoriya042@gmail.com",
+  address: "Lohegaon, Pune Maharashtra - India"
 };
