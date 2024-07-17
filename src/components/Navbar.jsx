@@ -22,9 +22,9 @@ const Navbar = () => {
           <a href="https://twitter.com/kamnaBhadoriya" target='_blank' rel="noopener noreferrer"><FaTwitter/></a>
           <a href="https://leetcode.com/u/kamnabhadoriya042/" target='_blank' rel="noopener noreferrer"><SiLeetcode/></a>
         </div>
-        <div>
+        {/* <div>
           <button className='bg-white rounded-md p-1 text-black text-extrabold'>Resources</button>
-        </div>
+        </div> */}
       </div>
     </nav>
   );

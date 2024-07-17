@@ -20,6 +20,7 @@ export const PROJECTS = [
   {
     title: "CodeUp",
     image: project1,
+    link: "https://codeup-three.vercel.app/",
     description:
       "CodeUp is a fully functional ed-tech platform enabling users to create, consume, and rate educational content, built using the MERN stack (ReactJS, NodeJS, MongoDB, ExpressJS). " +
       "Advanced User Management: Implemented secure and scalable user authentication and authorization mechanisms. " +
@@ -31,6 +32,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project2,
+    link: "https://codeup-three.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "firebase"],
