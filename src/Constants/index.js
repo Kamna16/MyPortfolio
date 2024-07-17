@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/codeup.png";
-import project2 from "../assets/projects/weather.png";
+import project2 from "../assets/projects/portfolio.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -32,10 +32,10 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project2,
-    link: "https://codeup-three.vercel.app/",
+    link: "https://kamna-portfolio.vercel.app/",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "firebase"],
+    technologies: ["HTML", "CSS", "React", "Framer Motion","Tailwind"],
   },
 ];
 
