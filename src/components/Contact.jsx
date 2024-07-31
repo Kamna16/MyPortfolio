@@ -89,7 +89,7 @@ function ContactForm() {
         <button 
           type='submit' 
           disabled={state.submitting}
-          className='inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-darkblue-100 bg-white hover:bg-indigo-700 hover:text-neutral-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+          className='inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-darkblue-100 bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
         >
           Submit
         </button>
