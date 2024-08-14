@@ -17,6 +17,8 @@ const Navbar = () => {
       </div>
       <div className='flex gap-5'>
         <div className='flex items-center justify-center gap-4 text-2xl'>
+          <a href="/blogs" className='hover:text-purple-100'>Blogs</a>
+          <a href="/blogs" className='hover:text-purple-100'>Notes</a>
           <a href="https://www.linkedin.com/in/kamna-bhadoriya/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
           <a href="https://github.com/Kamna16" target='_blank' rel="noopener noreferrer"><FaGithub/></a>
           <a href="https://twitter.com/kamnaBhadoriya" target='_blank' rel="noopener noreferrer"><FaTwitter/></a>
