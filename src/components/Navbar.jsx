@@ -13,13 +13,13 @@ const Navbar = () => {
         whileTap={{ scale: 1.1 }}
         drag="x"
         dragConstraints={{ left: -100, right: 100 }}
-         src={logo} className='w-40' alt="Logo"></motion.img>
+        src={logo} className='w-40' alt="Logo"></motion.img>
       </div>
       <div className='flex gap-5'>
         <div className='flex items-center justify-center gap-4 text-2xl'>
           <a href="https://www.linkedin.com/in/kamna-bhadoriya/" target='_blank' rel="noopener noreferrer"><FaLinkedin/></a>
           <a href="https://github.com/Kamna16" target='_blank' rel="noopener noreferrer"><FaGithub/></a>
-          {/* <a href="https://twitter.com/kamnaBhadoriya" target='_blank' rel="noopener noreferrer"><FaTwitter/></a> */}
+          <a href="https://twitter.com/kamnaBhadoriya" target='_blank' rel="noopener noreferrer"><FaTwitter/></a>
           <a href="https://leetcode.com/u/kamnabhadoriya042/" target='_blank' rel="noopener noreferrer"><SiLeetcode/></a>
         </div>
         {/* <div>
