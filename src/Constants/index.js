@@ -54,15 +54,15 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Framer Motion","Tailwind"],
   },
-  {
-    title: "Bike Repair Website",
-    image: project3, 
-    github: "https://github.com/Kamna16/FixMyBike",
-    link: "",
-    description:
-      "I am currently building a Bike Repair website using Next.js. The application aims to improve the bike repair industry by providing innovative services and features. This project will help make bike repair services more accessible and efficient, promoting sustainable transportation.",
-    technologies: ["Next.js","More.."],
-  },
+  // {
+  //   title: "Bike Repair Website",
+  //   image: project3, 
+  //   github: "https://github.com/Kamna16/FixMyBike",
+  //   link: "",
+  //   description:
+  //     "I am currently building a Bike Repair website using Next.js. The application aims to improve the bike repair industry by providing innovative services and features. This project will help make bike repair services more accessible and efficient, promoting sustainable transportation.",
+  //   technologies: ["Next.js","More.."],
+  // },
 ];
 
 export const CONTACT = {
