@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/codeup.png";
 import project2 from "../assets/projects/portfolio.png";
 import project3 from "../assets/projects/project3.jpg";
+import code from "../assets/projects/code.png"
 
 export const HERO_CONTENT = `
   I am a full stack development enthusiast passionate about building dynamic and scalable websites. 
@@ -53,6 +54,14 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Framer Motion","Tailwind"],
+  },
+  {
+    title: "Code Converter",
+    image: code,
+    github: "https://github.com/Kamna16/MyPortfolio",
+    link: "https://code-converter-silk.vercel.app/",
+    description: "A user-friendly tool that allows you to convert code between different programming languages seamlessly. Built using the Gemini API and React Monaco Editor, this converter supports multiple languages and offers an intuitive interface.",
+    technologies: ["HTML", "CSS", "React", "Monaco Editor","Tailwind", "Gemini API"],
   },
   // {
   //   title: "Bike Repair Website",
