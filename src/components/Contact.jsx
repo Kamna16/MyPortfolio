@@ -107,7 +107,7 @@ function Contact() {
         transition={{ duration: 1.5 }}
         className='my-20 text-center text-4xl'
       >
-        Get in Touch
+        Commit a message for me!
       </motion.h1>
       <ContactForm />
       <div className='text-center tracking-tighter'>
