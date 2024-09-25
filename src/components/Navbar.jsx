@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 
 const Navbar = () => {
   return (
-    <nav className='mb-18 flex flex-col md:flex-row items-center justify-between py-6 px-6 md:px-0'>
+    <nav className='sticky top-0 z-50 mb-18 flex flex-col md:flex-row items-center justify-between py-6 px-6 md:px-0'>
       <div className='flex flex-shrink-0 items-center mb-4 md:mb-0'>
         <motion.img 
         whileHover={{ scale: 1.2 }}

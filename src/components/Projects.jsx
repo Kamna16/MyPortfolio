@@ -18,7 +18,8 @@ const Projects = () => {
             <motion.div 
             whileInView={{opacity: 1,x: 0}}
             initial={{opacity: 0,x: -100}}
-            transition={{duration: 1}}
+            transition={{duration: 0.3}}
+            whileHover={{ scale: [null, 1.5, 1.4] }}
             className="w-full lg:w-1/4">
               <a href={project.link} target="_Blank">
               <img

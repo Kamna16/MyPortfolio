@@ -4,8 +4,7 @@ import project3 from "../assets/projects/project3.jpg";
 import code from "../assets/projects/code.png"
 
 export const HERO_CONTENT = `
-  I am a full stack development enthusiast passionate about building dynamic and scalable websites. 
-  I specialize in React.js, Node.js, and other modern web technologies, and I love solving DSA problems on LeetCode.Currently, I'm enhancing my skills in Docker and best practices for building robust applications. 
+  I am a Full Stack Development enthusiast passionate about building dynamic and scalable websites. I specialize in React.js, Node.js, and other modern web technologies, and I love solving DSA problems on LeetCode. Currently, I'm enhancing my skills in Docker, best practices for building robust applications, and diving into the world of Web3 and DevOps through a course I'm enrolled in.
   Check out my projects on GitHub and connect with me on Twitter to follow my journey in the tech world.
 `;
 
