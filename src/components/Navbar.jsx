@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../assets/userAsset/logo.png";
 import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'; 
+import { LuPenSquare } from "react-icons/lu";
 import { SiLeetcode } from "react-icons/si";
 import { motion } from "framer-motion"
 
@@ -21,6 +22,7 @@ const Navbar = () => {
           <a href="https://github.com/Kamna16" target='_blank' rel="noopener noreferrer"><FaGithub/></a>
           <a href="https://twitter.com/kamnaBhadoriya" target='_blank' rel="noopener noreferrer"><FaTwitter/></a>
           <a href="https://leetcode.com/u/kamnabhadoriya042/" target='_blank' rel="noopener noreferrer"><SiLeetcode/></a>
+          <a href="https://medium.com/@kamnabhadoriya042/" target='_blank' rel="noopener noreferrer"><LuPenSquare/></a>
         </div>
         {/* <div>
           <button className='bg-white rounded-md p-1 text-black text-extrabold'>Resources</button>
